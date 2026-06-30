@@ -44,6 +44,18 @@
   .voice .who{ font-size:11.5px; color:var(--ink-soft); margin-top:12px; text-align:right; }
   .ph{ color:#b9c4cb; }
 
+  /* 公式LINEボタン（表紙・紹介と同じ・水色×シルバーのキラキラ） */
+  .cta{ display:flex; align-items:center; gap:14px; text-decoration:none; color:#355f72; margin-top:30px; border-radius:16px; padding:17px 18px;
+    background:linear-gradient(100deg,#a9c8d8 16%,#dde9ef 43%,#fbfdff 50%,#dde9ef 57%,#a9c8d8 84%); background-size:220% auto;
+    animation:shimmer 6.5s linear infinite; box-shadow:0 12px 26px -14px rgba(90,140,165,.55); }
+  @keyframes shimmer{ to{ background-position:-220% center; } }
+  @media (prefers-reduced-motion:reduce){ .cta{ animation:none; } }
+  .cta .ico{ width:30px; display:flex; justify-content:center; color:#355f72; }
+  .cta .ico svg{ width:23px; height:23px; }
+  .cta .t b{ display:block; font-size:15px; font-weight:600; color:#2f5668; }
+  .cta .t small{ display:block; font-size:12px; margin-top:2px; color:rgba(50,85,100,.8); }
+  .cta .arr{ margin-left:auto; color:#355f72; font-family:"Cormorant Garamond",serif; font-style:italic; font-size:18px; }
+
   .foot{ text-align:center; margin-top:38px; font-size:12px; color:var(--ink-soft); line-height:2; }
   .foot .fmark{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:16px; color:var(--accent); }
   .draftnote{ text-align:center; font-size:11px; color:#9bb0bb; margin-top:20px; line-height:1.85; }
@@ -66,16 +78,16 @@
       <div class="q">2ヶ月目は早く結果が欲しくて焦っていた私に気づいたら、ゆっくりやっていこうと思った。そしたら、側湾していた背骨が真っ直ぐに！履けなくなったスカートもはけた！<br><br>
         ちょうど3ヶ月が経った頃、ダンスの舞台本番。たくさんの方から「今回の踊りは一味違ったね！すごく感動した」「痩せました？」「ますます綺麗になって」。実際、今まで以上に軽やかに動け、身体を庇う事なく全力で踊りきれた。踊る事がこんなに楽しい事だなんて忘れていました。嬉しさとともに湧き上がる前向きな気持ち。私は次の夢に向けてのステップを確実に進んでいます♪<br><br>
         私がしたことは、筋膜ローラーやストレッチをコツコツ運動に変えただけ。</div>
-      <div class="who">— 受講生さま</div>
+      <div class="who">— 30代・S.O様</div>
     </div>
     <div class="voice">
       <div class="q">今日もありがとうございました！<br><br>
         腰の運動を続けてみて、足のむくみや腰の痛みの変化を感じてます。でも今日受講して、身体の仕組みや、感情が身体に影響を及ぼすことを知り、直接聞いてみたことで、より首の運動の重要さにも気づけました。次は時間つくって首の運動やってみます。</div>
-      <div class="who">— 受講生さま</div>
+      <div class="who">— 30代・N.N様</div>
     </div>
     <div class="voice">
       <div class="q">切り替え上手になってきたり、明るいパワーを持てるのも、be graceメソッドと、毎週なおさんとお話させていただく機会があるからこそです。素敵な環境に感謝いっぱいです。</div>
-      <div class="who">— 受講生さま</div>
+      <div class="who">— 30代・S.O様</div>
     </div>
     <div class="voice">
       <div class="q">be graceメソッドを始めて2ヶ月経ちました。今まで自分の体の中まで気を配ることはほとんどありませんでしたが、講座を聞くことによって、自分の分からない所で様々な変化が体の中で起こっていることを知り、「体ってすごい！」と改めて感じると同時に、やればやるほど成果が出ることも知りました。これからも“継続は力なり”をモットーに頑張りたいと思います。<br><br>
@@ -83,7 +95,7 @@
         ・ヒップ　−2.4㎝（89.2→86.8㎝）<br>
         ・お腹周り　−7.2㎝（87.6→80.4㎝）<br>
         ・ウエスト　−2.8㎝（62.8→60㎝）</div>
-      <div class="who">— 受講生さま</div>
+      <div class="who">— 40代・T.N様</div>
     </div>
 
     <!-- 写真でみる変化：カラダの変化＝下に配置 -->
@@ -99,6 +111,12 @@
       <img src="henka2.jpg" alt="2ヶ月半での変化（Before / After）">
       <div class="cap">立ち仕事の足の痛みが <b>消えた</b></div>
     </div>
+
+    <a class="cta" href="https://lin.ee/zMSBmw7" target="_blank" rel="noopener">
+      <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5.5h16a1.5 1.5 0 0 1 1.5 1.5v8a1.5 1.5 0 0 1-1.5 1.5H9.5L5 21v-3H4a1.5 1.5 0 0 1-1.5-1.5V7A1.5 1.5 0 0 1 4 5.5Z" stroke-linejoin="round"/></svg></span>
+      <span class="t"><b>公式LINE</b><small>無料ギフトや最新情報を受け取る</small></span>
+      <span class="arr">→</span>
+    </a>
 
     <div class="foot"><span class="fmark">Be Grace</span><br>本来の自分に還る場所🤍</div>
   </div>
